@@ -1,6 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        arr=[y for y in str(x)]
+        arr=str(x)
         j=0
         k=-1
         n=len(arr)//2
